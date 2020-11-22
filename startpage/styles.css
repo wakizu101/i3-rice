@@ -1,0 +1,79 @@
+
+body{
+    background-color: rgb(34, 34, 37);
+}
+.clock{
+    margin-top:60px;
+    color: rgb(221, 212, 199);
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:link{
+    text-decoration: none;
+}
+.searchbar{
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+input[id="searchbar"]{
+    background: blue;
+    border: none;
+    border-radius: 20px;
+    font-size: 50px;
+text-align: center;}
+a:hover,
+input[id="searchbar"]:hover,
+input[id="searchbar"]:focus{
+    transform: translateY(-3px);
+	transition: .2s;
+	outline: none;
+}
+.linkbox{
+    display: grid;
+    margin-left:200px;
+    margin-right: 200px;
+    padding-top: 200px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+}
+.ilink{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+    grid-gap: 2rem;
+}
+
+.tlink1, .tlink2 .a{
+    color: honeydew;
+}
+.tlink1, .tlink2
+
+{
+    display: grid;
+    grid-gap: 5px;
+    background-color: rgb(57, 61, 102);
+    height: 300px;
+    width: 160px;
+    padding: 1rem;
+    box-shadow: 3px 3px rgb(85, 77, 77);
+    border-radius: 1rem;
+}
+.link{
+    color:hotpink;
+    font-size: 30px;
+}
+.icon{
+    border-radius: 1rem; display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 61, 102);
+    height: 80px;
+    width: 80px;
+    padding: 1rem;
+    box-shadow: 3px 3px rgb(85, 77, 77);
+}
