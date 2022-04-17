@@ -1,5 +1,17 @@
 # i3-rice
 my  own i3 +polybar rice
+
+Install dependencies
+
+sudo dnf install feh i3-gaps rofi polybar zathura firefox dnfdragora transmission 
+
+
+
+
+
+
+
+
 ![ss](https://raw.githubusercontent.com/wakizu101/i3-rice/master/Screenshot%20from%202020-09-06%2009-15-37.png)
 ![ss](https://github.com/wakizu101/i3-rice/blob/master/Screenshot%20from%202020-08-26%2021-57-59.png)
 ![ss](https://github.com/wakizu101/i3-rice/blob/master/Screenshot%20from%202020-08-26%2021-54-58.png)
